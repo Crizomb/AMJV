@@ -4,9 +4,9 @@ public class RotateWithMouse : MonoBehaviour
 {
     [SerializeField] LayerMask layerToIgnore;
     [SerializeField] Transform targetTransform;
-    [SerializeField]
+    
     [Range(0f, 1f)]
-    float lerpSpeed = 0.1f;
+    public float lerpSpeed = 0.01f;
     
     Rigidbody rb;
     Camera cam;
